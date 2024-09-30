@@ -1,0 +1,67 @@
+#box-principal {
+
+    position: absolute;
+    
+    height: 100%;
+    width: 100%;
+    
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+
+}
+
+#box-izquierda {
+    position: absolute;
+    top: 10vh;
+    left: 5vh;
+    height: 85vh;
+    width: 60vh;
+    border-radius: 10px;
+    background-color: #121212;
+    
+}
+
+#box-derecha {
+    position: absolute;
+    top: 10vh;
+    left: 70vh;
+    border-radius: 10px;
+    height: 85vh;
+    width: 135vh;
+    background-color: #121212;
+}
+
+#sp_logo {
+    top: 3vh;
+    left: 5vh;
+    height: 5vh;
+    width: 5vh;
+    position: absolute;
+}
+
+.botones{
+    position: absolute;
+
+    border-radius: 99999px;
+    top: 3vh;
+    left: 175vh;
+    
+   background-color: white;
+    color: black;
+    height: 6vh;
+    width: 30vh;
+}
+
+#buscar_barra{
+    position: absolute;
+    height: 5vh;
+    top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vh;
+    border-radius: 999999px;
+    text-align: center;
+    margin: auto;
+    
+}
