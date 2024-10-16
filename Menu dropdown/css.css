@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-size: 5vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left; /* Para hacer que los elementos estén en línea */
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 22px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+/* Dropdown menu */
+.contenido_drop {
+    display: none;
+    position: absolute; /* Hace que el desplegable esté sobre los otros elementos */
+    background-color: black;
+    min-width: 160px;
+}
+
+.contenido_drop a {
+    display:block; /* Hace que los enlaces dentro del desplegable ocupen toda la línea */
+    padding: 12px 16px;
+}
+
+.dropdown:hover .contenido_drop {
+    display: block;
+}

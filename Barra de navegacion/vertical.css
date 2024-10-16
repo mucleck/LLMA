@@ -1,0 +1,24 @@
+.barra {
+    width: 90px;
+    background-color: #384abd;
+    position: absolute;
+    right: 5%;
+    border-radius: 9999px;
+}
+
+.barra a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+   
+
+
+}
+
+.barra a:hover {
+    background-color: #425cce;
+}
+

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
 #box-principal {
 
     position: absolute;
@@ -8,60 +12,163 @@
     top: 0;
     left: 0;
     background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
 
+}
+
+#cabecera {
+    width: 100%;
+    height: 10%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+       
+    
+    
+}
+
+#cabecera_1 {
+    width: 30%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1vh;
+}
+#cabecera_1_logo {
+    width: 5vh;
+    height: 5vh;
+    
+}
+
+#cabecera_2 {
+    
+    width: 36%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#cabecera_2_buscar_icono{
+    background-color: #1f1f1f;
+    display: flex;
+    height: 6vh;
+    width: 5vh;
+    border-left: 1vh ;
+    border-top-left-radius: 99999px;
+    border-bottom-left-radius: 99999px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 1vh;
+}
+
+#buscar_icono_foto{
+    width: 3vh;
+    height: 50%;
+    color: #1f1f1f;
+}
+#cabecera_2_buscar_input{
+    background-color: #1f1f1f;
+    height: 6vh;
+    width: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+#cabecera_2_buscar_input_1 {
+   background-color: #1f1f1f;
+   border: 0;
+   padding-left: 1vh;
+   height: 5vh;
+   width: 50%;
+   font-family: 'Roboto', sans-serif;
+   font-size: 2vh;
+   color:grey;
+}
+
+#cabecera_2_icono_raro{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 1vh;
+    background-color: #1f1f1f;
+    height: 6vh;
+    width: 5vh;
+    border-left: 1vh ;
+    border-top-right-radius: 99999px;
+    border-bottom-right-radius: 99999px;
+}
+
+#icono_raro {
+    height: 3vh;
+    width: 3vh;
+}
+
+#cabecera_3 {
+    display: flex;
+    align-items: center;
+    gap: 5vh;
+    width: 33%;
+    background-color:black;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    padding-right: 1vh;
+}
+#cabecera_3_registrarse{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    color: grey;
+}
+#cabecera_3_iniciar_sesion{
+    background-color: white;
+    height: 7vh;
+    width: 20vh;
+    border-radius: 9999999px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+#box-d_i {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    flex-direction: row;
+    gap: 1vh;
+    padding: 1vh;
 }
 
 #box-izquierda {
-    position: absolute;
-    top: 10vh;
-    left: 5vh;
-    height: 85vh;
-    width: 60vh;
-    border-radius: 10px;
-    background-color: #121212;
-    
+    background-color: #1f1f1f;
+    border-radius: 1vh;
+    height: 100%;
+    width: 25%;
+}
+
+#box-izquierda-cabecera{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    border-top-left-radius: 1vh;
+    border-top-right-radius:1vh ;
 }
 
 #box-derecha {
-    position: absolute;
-    top: 10vh;
-    left: 70vh;
-    border-radius: 10px;
-    height: 85vh;
-    width: 135vh;
-    background-color: #121212;
+    background-color: blue;
+    height: 100%;
+    width: 85%;
 }
 
-#sp_logo {
-    top: 3vh;
-    left: 5vh;
-    height: 5vh;
-    width: 5vh;
-    position: absolute;
-}
-
-.botones{
-    position: absolute;
-
-    border-radius: 99999px;
-    top: 3vh;
-    left: 175vh;
-    
-   background-color: white;
-    color: black;
-    height: 6vh;
-    width: 30vh;
-}
-
-#buscar_barra{
-    position: absolute;
-    height: 5vh;
-    top: 3vh;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50vh;
-    border-radius: 999999px;
-    text-align: center;
-    margin: auto;
-    
+footer {
+    background-color: yellow;
+    width: 100%;
+    height: 10%;
 }

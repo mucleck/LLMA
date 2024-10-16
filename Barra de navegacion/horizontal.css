@@ -1,0 +1,30 @@
+.barra {
+    position: absolute;
+    bottom: 5px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    background-color:#d34623 ;
+    overflow: auto;
+    border-radius: 999999px;
+}
+
+.barra a {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.barra a:hover {
+    background-color: #e25d2d;
+}
+
+#globe:hover{
+    position: absolute;
+    bottom: 10px;
+    background-color: #e25d2d;
+}
