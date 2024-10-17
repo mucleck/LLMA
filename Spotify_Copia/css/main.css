@@ -11,7 +11,7 @@
     
     top: 0;
     left: 0;
-    background-color: rgb(0, 0, 0);
+    background-color:black;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -26,7 +26,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-       
+    box-sizing: border-box;
     
     
 }
@@ -37,6 +37,7 @@
     display: flex;
     justify-content: flex-start;
     padding-left: 1vh;
+    align-items: center;
 }
 #cabecera_1_logo {
     width: 5vh;
@@ -45,14 +46,44 @@
 }
 
 #cabecera_2 {
-    
+    box-sizing: border-box;
     width: 36%;
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1vh;
+}
+
+
+
+#cabecera_2_1{
+    width: 80%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home_button_div{
+    border-radius: 50%;
+    background-color:#1f1f1f;
+    width: 6vh;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home_button_div:hover{
+    box-sizing: border-box;
+    transform: scale(1.1);
     
-    
+}
+
+#home_button_img {
+    width: 3vh;
+    height: 50%;
 }
 #cabecera_2_buscar_icono{
     background-color: #1f1f1f;
@@ -112,40 +143,57 @@
 #cabecera_3 {
     display: flex;
     align-items: center;
-    gap: 5vh;
+    gap: 3vh;
     width: 33%;
     background-color:black;
     justify-content: flex-end;
     font-family: 'Roboto', sans-serif;
     font-size: 3vh;
     padding-right: 1vh;
+    align-items: center;
+    height: 100%;
 }
 #cabecera_3_registrarse{
     font-family: 'Roboto', sans-serif;
-    font-size: 3vh;
+    font-size: 2vh;
     color: grey;
+}
+#cabecera_3_registrarse:hover{
+    color: white;
+    transition: 0.2s;
 }
 #cabecera_3_iniciar_sesion{
     background-color: white;
-    height: 7vh;
-    width: 20vh;
+    height: 80%;
+    width: 18vh;
     border-radius: 9999999px;
     font-family: 'Roboto', sans-serif;
-    
-    
+    font-size: 2vh;
+    padding: 0;
 }
+
+#cabecera_3_iniciar_sesion:hover {
+    transform: scale(1.1); /* Escala el botón al 110% de su tamaño */
+    transition: 0.5s;
+}
+
 #box-d_i {
     box-sizing: border-box;
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: red;
+    background-color: black;
     flex-direction: row;
     gap: 1vh;
-    padding: 1vh;
+    padding-top: 0;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-bottom: 1vh;
 }
 
 #box-izquierda {
+    display: flex;
+    flex-direction: column;
     background-color: #1f1f1f;
     border-radius: 1vh;
     height: 100%;
@@ -153,16 +201,69 @@
 }
 
 #box-izquierda-cabecera{
+    box-sizing: border-box;
     display: flex;
     width: 100%;
     height: 10vh;
-    background-color: white;
+    background-color: #1f1f1f;
     border-top-left-radius: 1vh;
     border-top-right-radius:1vh ;
+    align-items: top;
+    padding-left: 2vh;
+    padding-right: 1vh;
+    padding-bottom: 2vh;
+    padding-top: 0vh;
+    justify-content: space-between;
 }
 
+#b-i-c-boton{
+    background-color: #1f1f1f;
+    box-sizing: border-box;
+    height: 5vh;
+    width: 20vh;
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+    font-size: 2vh;
+    color: white;
+    border: none;
+    padding: 0;
+}
+
+#library{
+    height: 2vh;
+    width: 2vh;
+}
+
+#plus_div{
+    height: 5vh;
+    width: 5vh;
+    background-color: #1f1f1f;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#plus{
+    height: 2vh;
+    width: 2vh;
+}
+
+#b-i-cajas{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+.b-i-div{
+    height: 25vh;
+    width: 100%;
+    background-color: #121212;
+    border-radius: 1vh;
+}
 #box-derecha {
-    background-color: blue;
+    background-color: #1f1f1f;
     height: 100%;
     width: 85%;
 }
