@@ -1,0 +1,46 @@
+#principal {
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#cabecera {
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+}
+
+.cajitas {
+    background-color: grey;
+    height: 500px;
+    width: 100%;
+}
+
+#CAJAS{
+    height: 45%;
+    
+}
+#cajas {
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 200px;
+    overflow-y: scroll;
+    gap: 1vh;
+}
+
+#caja1 {
+    background-color: yellow;
+}
+
+#caja2{
+    background-color: red;
+}
+
+#abajo {
+    background-color: blue;
+}
