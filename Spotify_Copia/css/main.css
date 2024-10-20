@@ -264,6 +264,13 @@
     
 }
 
+#contenedor-1 {
+    padding: 1vh;
+}
+
+#contenedor-2 {
+    padding: 1vh;
+}
 
 #b-i-div-1{
     background-color: #1f1f1f;
@@ -271,19 +278,19 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    gap: 4vh;
+    gap: 2vh;
     align-items:flex-start;
     justify-content:baseline;
     padding-top: 3vh;
     padding-left: 3vh;
-    padding-bottom: 1vh;
+    padding-bottom: 3vh;
     font-family: 'Roboto', sans-serif;
     font-size: 2vh;
     color: white; 
 }
 
 #b-i-div-2{
-    height: 25vh;
+    border-radius: 5vh;
 }
 
 
@@ -296,6 +303,42 @@
     font-family: 'Roboto', sans-serif;
     font-size: 2vh;
     border: none;
+}
+
+#enlaces {
+    height: 43%; background-color:rgb(27, 24, 24); width: 100%;border-bottom-left-radius: 1vh; border-bottom-right-radius:1vh;
+    align-items: center;
+    display: flex;
+}
+
+#enlaces-propiedadess {
+    display: flex;
+    
+    flex-wrap:wrap;/*Revisar que es esto*/
+    
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    
+    gap: 1vh;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    align-items: center;
+
+}
+
+.enlaces-propiedades {
+    background-color: red;
+    flex-wrap: nowrap;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+    height: 5vh;
+    text-align: center;
+    color: white;
+    align-items: center;
+    font-size: 12px;
 }
 
 #box-derecha {
