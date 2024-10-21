@@ -309,6 +309,10 @@
     height: 43%; background-color:rgb(27, 24, 24); width: 100%;border-bottom-left-radius: 1vh; border-bottom-right-radius:1vh;
     align-items: center;
     display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 1vh;
+    box-sizing: border-box;
 }
 
 #enlaces-propiedadess {
@@ -329,9 +333,10 @@
 }
 
 .enlaces-propiedades {
-    background-color: red;
-    flex-wrap: nowrap;
-    
+    background-color: rgb(27, 24, 24);
+    /*flex-wrap: nowrap;*/
+    display: flex;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 2vh;
     height: 5vh;
@@ -340,12 +345,33 @@
     align-items: center;
     font-size: 12px;
 }
+#espanol {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 1vh;
+}
+#boton_idioma {
+    border: solid;
+    border-color: beige;
+    font-size: 2vh;
+    box-sizing: border-box;
+    border-radius: 99999999px;
+    height: 100%;
+    background-color: rgb(27, 24, 24);
+    color: white;
+}
 
 #box-derecha {
     background-color: #1f1f1f;
     border-radius: 1vh;
     height: 100%;
     width: 73%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+    
 }
 
 footer {
@@ -360,6 +386,6 @@ footer {
 #foot_div{
     height: 100%;
     width: 100%;
-   
+    
     background-image:linear-gradient(90deg, #af2896, #509bf5);
 }
