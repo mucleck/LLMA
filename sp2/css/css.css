@@ -1,0 +1,174 @@
+#main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    min-width: 430px;
+    min-height: 932px; /*IPHONE 14 PRO MAX*/
+}
+
+#cabecera {
+    height: 7%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border: 0;
+
+}
+
+#cabecera-splogo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding-left: 1vh;
+}
+
+#cabecera-splogo-img {
+    width: 4vh;
+}
+
+#cabecera-search {
+    flex: 3;
+    background-color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#cabecera-search-img-div {
+    display: flex;
+    align-items: center;
+    
+    box-sizing: border-box;
+    padding-right: 0.5vh;
+    
+}
+
+#cabecera-search-img {
+    width: 4vh;
+}
+
+#cabecera-botones {
+    flex: 4;
+    background-color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding-right: 1vh;
+    gap: 1vh;
+}
+
+#boton-1 {
+    flex: 1;
+    background-color: white;
+    border: 0;
+    border-radius: 9999999px;
+    height: 5vh;
+    box-sizing: border-box;
+    padding:0.5vh;
+}
+
+#boton-2 {
+    flex: 1;
+    background-color: white;
+    border: 0;
+    border-radius: 9999999px;
+    height: 5vh;
+    box-sizing: border-box;
+    padding:0.5vh;
+}
+
+#box-d-i {
+    background-color: black;
+    width: 100%;
+    height: 80%;
+    box-sizing: border-box;
+    display: flex;
+    padding: 1vh;
+}
+
+#box-i {
+    flex: 1;
+    background-color: red;
+    height: auto;
+    display: none;
+}
+
+#box-d {
+    flex: 3;
+    background-color: #121212;
+    border-radius: 1vh;
+    box-sizing: border-box;
+    padding: 1vh;
+    
+    
+    max-height: 727px;
+    overflow-y: scroll;
+}
+
+.flex-1 {
+    height: 250px;
+    width: 100%;
+    background-color: blue;
+    padding: 1vh;
+    
+}
+
+#box-d-1 {
+    overflow-x: scroll;
+    white-space: nowrap;
+    max-width: 393px;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#box-d-1-texto-div {
+    height: 20%;
+    width: 45%;
+    background-color: red;
+}
+
+#box-d-1-portadas-div {
+    height: 80%;
+    background-color: black;
+    width: 800px;
+}
+
+#portadas-1-div {
+    width: 200px;
+    height: 100%;
+    background-color: green;
+    padding: 1vh;
+    box-sizing: border-box;
+}
+
+#portadas-1-1-img-div {
+    background-color: aliceblue;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    
+    box-sizing: border-box;
+}
+
+#portadas-1-1 {
+    width: 80%;
+}
+
+#portadas-1-1-texto-div {
+    width: 100%;
+    height: 20%;
+    background-color: red;
+}
+
