@@ -1,43 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>&lt;b&gt;</title>
+    <title>Página Responsive Spotify-like</title>
+    <link rel="stylesheet" href="scss.css">
 </head>
 <body>
-    <h1>Header</h1>
-    
-    <h6>Header</h6>
-    <p>Parrafo</p>
-    <a href="https://www.google.com">Link<br></a>
-    <img src="img/gato.jpg" width="100" height="100" alt="gato">
-    <p>Los saltos de linea se hacen escribiendo <br> &lt;br&gt; dentro del texto  </p>
-    <p style="color:red;">Clase</p>
-    <p>Con &lt;hr&gt; Generas una barra espaciadora como esta de aqui abajo</p>
-    <hr>
-    <p>Asi.</p>
-    <pre>
-    Con la etiqueta &lt;pre&gt; puedes preservar la forma del texto,
-        
-    Asi si dejas espacios estos se muestran sin necesidad de poner 
-        
-    saltos de linea
-    </pre>
+    <div class="container">
+        <!-- Barra lateral -->
+        <div class="sidebar">
+            <div class="library">
+                <h2>Tu biblioteca</h2>
+                <button>Crear lista</button>
+                <p>Encuentra podcasts que quieras seguir</p>
+            </div>
+            <div class="language">
+                <p>Español de España</p>
+            </div>
+        </div>
 
-    <pre style="font-family: Arial, Helvetica, sans-serif;">
-        Tipos especiales de texto
-        &lt;b&gt;
-        &lt;strong&gt;
-        &lt;i&gt;
-        &lt;em&gt;
-        &lt;mark&gt;
-        &lt;small&gt;
-        &lt;del&gt;
-        &lt;ins&gt;
-        &lt;sub&gt;
-        &lt;sup&gt;
-        
-    </pre>
+        <!-- Sección principal -->
+        <div class="main-content">
+            <header class="header">
+                <input type="text" placeholder="¿Qué quieres reproducir?" />
+            </header>
+
+            <!-- Artistas populares -->
+            <section class="popular-artists">
+                <h2>Artistas populares</h2>
+                <div class="artist-list">
+                    <div class="artist">KAROL G</div>
+                    <div class="artist">Myke Towers</div>
+                    <div class="artist">Bad Bunny</div>
+                    <div class="artist">Omar Montes</div>
+                    <div class="artist">Lola Indigo</div>
+                    <div class="artist">Rauw Alejandro</div>
+                    <div class="artist">Feid</div>
+                </div>
+            </section>
+
+            <!-- Álbumes populares -->
+            <section class="popular-albums">
+                <h2>Álbumes populares</h2>
+                <div class="album-list">
+                    <div class="album">LA PANTERA NEGRA</div>
+                    <div class="album">SAKURA</div>
+                    <div class="album">MAÑANA SERÁ BONITO</div>
+                    <div class="album">Si Antes Te Hubiera Conocido</div>
+                    <div class="album">Un Verano Sin Ti</div>
+                </div>
+            </section>
+        </div>
+    </div>
 </body>
 </html>

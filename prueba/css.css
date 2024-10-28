@@ -1,72 +1,51 @@
-#principal {
-    background-color: black;
-    position: absolute;
-    height: 100%;
-    width: 30%;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-#cabecera {
-    height: 10%;
-    width: 100%;
-    background-color: blue;
-}
-
-.cajitas {
-    background-color: grey;
-    height: 15vh;
-    width: 100%;
-}
-
-#CAJAS{
-    height: 45%;
-    
-}
-#cajas {
-    /* display: flex; */
-    /* flex-direction: column; */
-    height: 200px;
-    overflow-y: scroll;
-    gap: 1vh;
-}
-
-#caja1 {
-    background-color: yellow;
-    
-    box-sizing: border-box;
-
-}
-
-#MANUEL {
-    /*display: flex;
-    flex-direction: row;*/
+* {
     padding: 1vh;
     box-sizing: border-box;
-    
-    height: 100%;
+}
+
+#principal {
+    position: absolute;
+    background-color: black;
     width: 100%;
-    background-color: aliceblue;
+    height: 30%;
+    display: flex;
     align-items: center;
-    
-
+    justify-content: center;
 }
 
-.martina {
+#carta {
+    
+    position: absolute;
+    width: 200px;
+    height: 200px;
     background-color: blue;
-    border-radius: 2vh;
+    border-radius: 1vh;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    justify-items: flex-start;
+    gap: 5vh;
+    
+}
+
+#Portada {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    
+}
+
+#foto {
     width: 100%;
-    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 3vh;
 }
 
-#caja2{
-    background-color: blue;
-    border-radius: 2vh;
-    
-}
-
-#abajoa {
-    background-color: blue;
+#texto {
+    width: 50px;
+    height: 150px;
+    background-color: black;
 }
